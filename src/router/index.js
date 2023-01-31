@@ -42,10 +42,6 @@ const routes = [
         path: '/contato',
         name: 'ContactPage',
         component: ContactPage
-    }, {
-        path: '',
-        name: '',
-        component: ''
     }
 ]
 
