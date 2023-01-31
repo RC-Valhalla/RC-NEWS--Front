@@ -7,6 +7,7 @@ import LoginPage from '../views/LoginPage.vue'
 import PostPage from '../views/PostPage.vue'
 import RegisterPage from '../views/RegisterPage.vue'
 import ResetPage from '../views/ResetPage.vue'
+import ContactPage from '../views/ContactPage.vue'
 
 const routes = [
     {
@@ -38,9 +39,9 @@ const routes = [
         name: 'ResetPage',
         component: ResetPage
     }, {
-        path: '',
-        name: '',
-        component: ''
+        path: '/contato',
+        name: 'ContactPage',
+        component: ContactPage
     }, {
         path: '',
         name: '',
