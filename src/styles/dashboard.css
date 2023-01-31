@@ -153,5 +153,5 @@ a {
 }
 
 .rcicon{
-	background-image:url('./imagens/favicon.ico');
+	background-image:url('@/assets/favicon.ico');
 }
