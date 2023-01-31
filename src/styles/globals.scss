@@ -1,0 +1,102 @@
+/*customization*/
+
+/*buttom*/
+.btn-purpledark{
+ background-color:#453960;
+}
+.btn-bluedark{
+  background-color:#459A96;
+  border-color:#459A96;
+
+}
+.btn-greydark{
+  background-color:#3D3C3F;
+  border-color:#3D3C3F;
+}
+.btn-blue{
+ background-color:#34B9AB;
+ border-color:#34B9AB;
+
+}
+/*button outline*/
+.btn-outline-blue {
+  color: #34B9AB;
+  border-color: #34B9AB;
+}
+.btn-outline-blue:hover {
+  color: #fff;
+  background-color: #34B9AB;
+  border-color: #34B9AB;
+}
+
+.btn-outline-purpledark {
+  color: #453960;
+  border-color: #453960;
+}
+.btn-outline-purpledark:hover {
+  color: #fff;
+  background-color: #453960;
+  border-color: #453960;
+}
+
+/*background*/
+
+.bg-greyblack{
+ background-color:#212529;
+ color:white;
+}
+.bg-blue{
+ background-color:#34B9AB;
+}
+
+/*hover*/
+.btn-blue:hover{
+  background-color:#459A96;
+  border-color:#459A96;
+
+}
+input[type=email].bg-greydark, input[type=password].bg-greydark, input[type=text].bg-greydark{
+ background-color:#3D3C3F;
+ border-color:#3D3C3F;
+ color:white;
+}
+
+/*menu*/
+.menu:hover{
+	background-color:#4E4D51;
+}
+
+.titulo{
+  font-family: alata,  serif;
+  
+  }
+  .menu{
+    font-family:'Roboto';
+  }
+  /*modificação*/
+  #corpo{
+  
+    width:658px;
+    min-height:110%;
+    max-height: 980px;
+    margin:30px auto 30px auto;
+    display:flex;
+    background-color:#FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+  #contp{
+    width:60%;
+    height: 88%;
+    margin: -90vh auto 0 auto;
+    position:relative;
+    background-color:#FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    z-index: 1;
+  }
+  .space{
+    margin: 0 5px;
+  }
+
+  
