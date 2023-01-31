@@ -4,32 +4,33 @@ import HomePage from '../views/HomePage.vue'
 import AboutPage from '../views/AboutPage.vue'
 import PaymentPage from '../views/PaymentPage.vue'
 import LoginPage from '../views/LoginPage.vue'
+import PostPage from '../views/PostPage.vue'
 
 const routes = [
     {
         path: '/',
-        name: 'home-page',
+        name: 'HomePage',
         component: HomePage
     },
     {
         path: '/sobre',
-        name: 'about-page',
+        name: 'AboutPage',
         component: AboutPage
     },
     {
         path: '/planos',
-        name: 'payment-page',
+        name: 'PaymentPage',
         component: PaymentPage
     },
     {
         path: '/login',
-        name: 'login-page',
+        name: 'LoginPage',
         component: LoginPage
     },
     {
-        path: '',
-        name: '',
-        component: ''
+        path: '/post',
+        name: 'PostPage',
+        component: PostPage
     },
     {
         path: '',
