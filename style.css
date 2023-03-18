@@ -4262,3 +4262,19 @@ html {
 .space {
     margin: 0 5px;
 }
+
+a{
+    color:#34B9AB;
+}
+
+a:hover, a:active{
+    color:#305758;
+}
+
+.page-item{
+    color:#f0f0f0;
+}
+.pagina{
+    color:white;
+    background-color: #34B9AB;
+}
